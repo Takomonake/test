@@ -31,8 +31,8 @@ public class test : MonoBehaviour
     {
         //forと配列の利用での行数削減
         for(int i=0;i<6;i++){
-        on[i].SetActive(false);
-        off[i].SetActive(true);
+        off[i].SetActive(true);//気にするほどじゃないでしょうがラグった場合オブジェクトが消失する可能性を考えてTrueを先に。   
+        on[i].SetActive(false);//ただ、オブジェクトが重なった際メッシュがバグったりするかもしれないのでどちらが良いのかはなんとも。
         }
     }
 
@@ -43,8 +43,8 @@ public class test : MonoBehaviour
         try{
             if (!(RawKeyInput.IsKeyDown(key)))//通常ifは使われてなかったので削除
             {
+                off[a].SetActive(true);            
                 on[a].SetActive(false);
-                off[a].SetActive(true);
             }
         }
         catch{}
