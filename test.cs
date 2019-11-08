@@ -9,7 +9,7 @@ public class test : MonoBehaviour
     public GameObject btf1, btf1off, btf2, btf2off, btf3, btf3off, btf4, btf4off, fxf5, fxf5off, fxf6, fxf6off;
     public GameObject[] teston=new GameObject[6];
     public GameObject[] testoff=new GameObject[6];
-    public int a=0;
+    public int a;
     private void OnEnable()
     {
         RawKeyInput.Start(true);
