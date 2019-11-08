@@ -3,3 +3,5 @@
 気になった点を改変しただけのものなので単体では使えません。
 
 利用する場合は[ElringusさんのUnityRawInput](https://github.com/Elringus/UnityRawInput)が必要です。
+
+なお私が当プログラムについて著作権を主張することはありません。
