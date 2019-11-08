@@ -9,7 +9,7 @@ public class test : MonoBehaviour
 {
     //public GameObject bta, btaoff, btb, btboff, btc, btcoff, btd, btdoff, fxa, fxaoff, fxb, fxboff;//必要なくなった。
     //public bool InterceptMessages;//使ってなくて無くてもいいのでコメントアウト
-    public GameObject[] on=new GameObject[6];//配列の用意
+    public GameObject[] on=new GameObject[6];//配列の用意。DictionaryはRawKeyの取得が上手くいかなかったので断念。
     public GameObject[] off=new GameObject[6];
     public int a;//配列番号取得？用変数
 
